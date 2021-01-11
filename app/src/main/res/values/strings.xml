@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">HW_1_1_05_01_2021</string>
+    <string name="TextView_text">Какой-то текст!</string>
+    <string name="button_text">Кнопка</string>
+    <string name="editText_hint">Что-то напечатано</string>
+    <string name="textView_fontFamily_font">monospace</string>
+    <string name="editText_fontFamily_font">serif</string>
 </resources>
