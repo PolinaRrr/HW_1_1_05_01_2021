@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/slateGrey"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/editText_hint_text"
+        android:layout_margin="@dimen/editText_margin"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/editText_hint_textPersonName"
+        android:layout_margin="@dimen/editText_margin"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="@string/editText_hint_phone"
+        android:layout_margin="@dimen/editText_margin"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/editText_hint_number"
+        android:layout_margin="@dimen/editText_margin"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="@string/editText_hint_textPassword"
+        android:layout_margin="@dimen/editText_margin"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="@string/editText_hint_textEmailAddress"
+        android:layout_margin="@dimen/editText_margin"
+        android:importantForAutofill="no" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/button_back_page2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/linearLayout_button_backPage" />
+        <Button
+            android:id="@+id/button_next_page2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/linearLayout_button_nextPage" />
+
+    </LinearLayout>
+
+</LinearLayout>

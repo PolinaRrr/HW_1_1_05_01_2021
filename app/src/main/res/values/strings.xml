@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">HW_1_1_05_01_2021</string>
+    <string name="TextView_text">Какой-то текст!</string>
+    <string name="button_text">Кнопка</string>
+    <string name="editText_hint">Что-то напечатано</string>
+    <string name="textView_fontFamily_font">monospace</string>
+    <string name="editText_fontFamily_font">serif</string>
+    <string name="editText_hint_text">Какой-то текст</string>
+    <string name="editText_hint_textPersonName">Можно внести только буквы</string>
+    <string name="editText_hint_phone">Номер телефона</string>
+    <string name="editText_hint_number">Можно внести только цифры</string>
+    <string name="editText_hint_textPassword">Поле для пароля</string>
+    <string name="editText_hint_textEmailAddress">Поле для эл. почты</string>
+    <string name="linearLayout_button_nextPage">Далее</string>
+    <string name="linearLayout_button_backPage">Назад</string>
 </resources>
