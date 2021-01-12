@@ -57,5 +57,20 @@
         android:layout_margin="@dimen/editText_margin"
         android:importantForAutofill="no" />
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/button_back_page2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/linearLayout_button_backPage" />
+        <Button
+            android:id="@+id/button_next_page2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/linearLayout_button_nextPage" />
+
+    </LinearLayout>
 
 </LinearLayout>

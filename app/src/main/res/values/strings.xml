@@ -12,4 +12,5 @@
     <string name="editText_hint_textPassword">Поле для пароля</string>
     <string name="editText_hint_textEmailAddress">Поле для эл. почты</string>
     <string name="linearLayout_button_nextPage">Далее</string>
+    <string name="linearLayout_button_backPage">Назад</string>
 </resources>
